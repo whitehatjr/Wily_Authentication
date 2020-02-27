@@ -24,13 +24,11 @@ export default class LoginScreen extends React.Component {
               case 'auth/user-not-found':
                 Alert.alert("user dosen't exists")
                 console.log("doesn't exist")
-    
-                bre
-                case 'auth/invalid-email':
+                break
+              case 'auth/invalid-email':
                 Alert.alert('incorrect email or password')
                 console.log('invaild')
-    
-    
+                break
             }
           }
         }
